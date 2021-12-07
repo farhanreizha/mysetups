@@ -1,0 +1,32 @@
+{
+  "name": "mysetups",
+  "displayName": "mysetups",
+  "description": "The VS Code theme",
+  "version": "0.0.1",
+  "publisher": "mysetups",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysetups/vscode-theme-mysetups.git"},
+  "keywords": [
+    "theme",
+    "vscode",
+    "dark theme",
+    "vscode theme",
+    "vscode dark theme"
+  ],
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mysetups theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mysetups theme-color-theme.json"
+      }
+    ]
+  }
+}
